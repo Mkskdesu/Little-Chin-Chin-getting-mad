@@ -1,3 +1,3 @@
-# PIPPI's DICK
+# Little Chin Chin getting mad...
 
 tntn育成RPG
