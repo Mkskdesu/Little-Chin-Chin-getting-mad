@@ -1,8 +1,19 @@
-import './App.css'
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
 
-function App() {
+import PageRouter from "Global/Router/PageRouter";
+
+import style from "./App.module.scss";
+import "Global/Styles/global.scss";
+
+
+const App:React.FC = () =>{
   return (
-    <div></div>
+    <div className={style.app}>
+        <BrowserRouter>
+            <PageRouter/>
+        </BrowserRouter>
+    </div>
   )
 }
 
