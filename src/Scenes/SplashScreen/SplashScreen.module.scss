@@ -1,0 +1,45 @@
+.splash {
+    height: 100%;
+    position: relative;
+
+    .logo {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(100vw / 25);
+        column-gap: 16px;
+        animation: fade 5s ease forwards;
+    }
+
+    .caution {
+        height: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: fade 5s ease forwards;
+        animation-delay: 5s;
+        font-size: 24px;
+    }
+
+    img {
+        height: calc(100vw / 5);
+    }
+
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
