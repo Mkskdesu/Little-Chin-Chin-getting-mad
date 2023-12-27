@@ -1,0 +1,15 @@
+.title {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .titleImage {
+        max-width: 80%;
+    }
+
+    .start {
+        background-image: linear-gradient(to right, transparent, #f7d190c5, transparent);
+    }
+}
